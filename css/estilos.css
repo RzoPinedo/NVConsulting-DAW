@@ -6,7 +6,7 @@
     /*border: solid 1px #000;*/
 }
 #main{
-    background-color:#3f4975;
+    background-color:#0e2b3f;
     color: #ffffff;
 }
 
@@ -32,6 +32,9 @@
     display: inline-block;
 }
 
+.nav-item{
+    font-size: 25px;
+}
 
 
 

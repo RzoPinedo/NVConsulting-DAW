@@ -1,7 +1,8 @@
 * {
     margin:0px;
     padding:0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    box-sizing: border-box;   
     /*border: solid 1px #000;*/
 }
 #main{
@@ -111,11 +112,11 @@
 }
 */
 
-*{
+/* *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body{
     font-family: 'lato';
@@ -143,7 +144,11 @@ body{
     height: inherit;
     object-fit: cover;
     vertical-align: top;
-    transition: 2s;
+    transition: 5s;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
 }
 
 .direcciones{

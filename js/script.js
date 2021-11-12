@@ -67,7 +67,7 @@ const field = document.getElementById('inputSearch');
                 location.href = "nosotros.html";
                 break;				
             case "3":
-               
+                location.href = "Contacto.html";
                 break;
 			case "4":
                

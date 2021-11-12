@@ -1,4 +1,4 @@
-document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
+//document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
 
 function mostrar_menu(){
 
@@ -17,8 +17,8 @@ function mostrar_menu(){
 
 
 //Ejecutando funciones
-document.getElementById("icon-search").addEventListener("click", mostrar_buscador);
-document.getElementById("cover-ctn-search").addEventListener("click", ocultar_buscador);
+// document.getElementById("icon-search").addEventListener("click", mostrar_buscador);
+// document.getElementById("cover-ctn-search").addEventListener("click", ocultar_buscador);
 
 //Declarando variables
 bars_search =       document.getElementById("ctn-bars-search");
@@ -53,36 +53,45 @@ function ocultar_buscador(){
 
 //Creando filtrado de busqueda
 
-document.getElementById("inputSearch").addEventListener("keyup", buscador_interno);
 
-function buscador_interno(){
-
-
-    filter = inputSearch.value.toUpperCase();
-    li = box_search.getElementsByTagName("li");
-
-    //Recorriendo elementos a filtrar mediante los "li"
-    for (i = 0; i < li.length; i++){
-
-        a = li[i].getElementsByTagName("a")[0];
-        textValue = a.textContent || a.innerText;
-
-        if(textValue.toUpperCase().indexOf(filter) > -1){
-
-            li[i].style.display = "";
-            box_search.style.display = "block";
-
-            if (inputSearch.value === ""){
-                box_search.style.display = "none";
-            }
-
-        }else{
-            li[i].style.display = "none";
+const field = document.getElementById('inputSearch');
+    const ac = new Autocomplete(field, {
+        maximumItems: 5,
+        treshold: 1,
+        onSelectItem: ({label, value}) => {
+         switch (value) {
+            case "1":
+                location.href = "cursos.html";
+                break;
+            case "2":
+                location.href = "nosotros.html";
+                break;				
+            case "3":
+               
+                break;
+			case "4":
+               
+                break;
+            default:
+                break;
         }
+        }
+    });
 
-    }
-
-
-
-}
-
+    ac.setData([
+        {
+            "label": "Cursos",
+            "value": "1"
+        }, {
+            "label": "Nosotros",
+            "value": "2"
+        },
+        {
+            "label": "Contacto",
+            "value": "3"
+        },
+		{
+            "label": "Ayuda",
+            "value": "4"
+        }
+		]);

@@ -36,6 +36,14 @@
     font-size: 25px;
 }
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #df0f3c;
+    padding-top: 20px;
+}
+
 
 
 /*

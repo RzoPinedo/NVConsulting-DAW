@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <title>Contacto</title>
+</head>
+
+<body class="bg-secondary">
+
+    <section class="d-flex justify-content-center">
+        <div class="card col-md-5 p-3">
+            <div class="mb-3">
+                <h4>Contacto</h4>
+                Su direcci&oacuten de correo electr&oacutenico no ser&aacute publicada. Los campos obligatorios
+                est&aacuten marcados(*)
+            </div>
+            <div class="mb-2">
+                <form action="" method="POST" id="form">
+                    <div class="form">
+                        <div class="mb-2">
+                            <label for="nombre">Nombre*</label>
+                            <input type="text" class="form-control" name="" id="nombre" placeholder="Miguel">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="nombre">Email*</label>
+                            <input type="text" class="form-control" name="" id="correo"
+                                placeholder="correo@prueba.com">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="nombre">Telefono/Celular*</label>
+                            <input type="text" class="form-control" name="" id="telefono" placeholder="925365986">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="nombre">Mensaje</label>
+                            <textarea class="form-control" name="mensaje" id="mensaje"
+                                placeholder="Mensaje..."></textarea>
+                        </div>
+
+                        <div class="mb-2">
+                            <button class="btn btn-primary" type="submit">Solicitar</button>
+                            <p class="warnings" id="warnings"></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/contacto.js"></script>
+</body>
+
+</html>

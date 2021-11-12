@@ -5,7 +5,7 @@ const form = document.getElementById("form")
 const parrafo = document.getElementById("warnings")
 
 form.addEventListener("submit", e=>{
-    // e.preventDefault()
+    e.preventDefault()
     let warnings = ""
     let entrar = false
     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/

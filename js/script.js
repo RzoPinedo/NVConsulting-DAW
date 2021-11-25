@@ -60,3 +60,5 @@ function CrearBuscador() {
 $("#menu").load("menu.html", function (e) {
     CrearBuscador();
 });
+$("#footer").load("footer.html", function (e) {
+});

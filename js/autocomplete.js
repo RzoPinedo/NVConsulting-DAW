@@ -68,8 +68,8 @@ class Autocomplete {
       const className = Array.isArray(this.options.highlightClass)
         ? this.options.highlightClass.join(" ")
         : typeof this.options.highlightClass == "string"
-        ? this.options.highlightClass
-        : "";
+          ? this.options.highlightClass
+          : "";
       label =
         item.label.substring(0, idx) +
         `<span class="${className}">${item.label.substring(

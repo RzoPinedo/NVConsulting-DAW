@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">  
-    <!-- <link rel="stylesheet" href="css/principal.css">
-    <link rel="stylesheet" href="css/blog.css"> -->
-    <!---<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">--->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>NVConsulting</title>
 </head>
 
 <body>
-
     <div class="container-fluid" id="main">
-        <div id="menu">
-
-        </div>
-        
+        <div id="menu"></div>
         <div class="container-fluid">
             <div id="cursos">
                 <header id="listacursos">
@@ -30,97 +23,92 @@
                         </div>
                         <img src="imagenes/fondo1.jpg" class="img-fluid " alt="">
                     </div>
-                    </div>
-                </header>
             </div>
-
-            <div id="promociones" class="container">
-                <h1>Nuevos Cursos</h1>
-                <div class="row mx5">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100" style="width:18rem">
-                            <img src="imagenes/Curso-Satisfaccion-Del-Cliente.jpg" class="card-img-top">
-                            <div class="card body">
-                                <h5 style="color:brown" >MEDICIÓN DE LA SATISFACCIÓN DEL CLIENTE</h5>
-                                <p class="card-text" style="color:darkgreen">
-                                    Conocer procesos efectivos para el monitoreo y medición de la satisfacción del cliente en el marco estándares internacionales (ISO 10004).
-                                </p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100" style="width:18rem">
-                            <img src="imagenes/Curso-Gestion-De-La-Mejora-Continua.jpg" class="card-img-top">
-                            <div class="card body">
-                                <h5 style="color:brown" >GESTIÓN DE LA MEJORA CONTINUA</h5>
-                                <p class="card-text" style="color:darkgreen">
-                                    Brindar a los participantes los conceptos y herramientas necesarias para la definición, toma y control de Acciones Correctivas y Preventivas.
-                                </p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100" style="width:18rem">
-                            <img src="imagenes/Curso-Validacion-Metodos-De-Ensayo-Cualitativos.jpg" class="card-img-top">
-                            <div class="card body">
-                                <h5 style="color:brown" >VALIDACIÓN DE MÉTODOS DE ENSAYO CUALITATIVOS</h5>
-                                <p class="card-text" style="color:darkgreen">
-                                    Dar herramientas para definir, ejecutar y verificar validaciones de métodos de ensayo cualitativos.
-                                </p>
-                                <a href="#" class="btn btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-                <div class="row">
-                    <div class="container-fluid col-3 align-content-center">
-                        <br>
-                        <button onclick="location.href='cursos.html'" type="button" class="btn btn-primary btn-lg">Ir a la Lista Completa Cursos</button>
-                    </div>
-                </div>
-            </div>
-           
-            <br><br>
-            <div class="slide-contenedor">
-                <div class="miSlider fade">
-                    <img src="./imagenes/galeria/1.jpg" alt="">
-                </div>
-                <div class="miSlider fade">
-                    <img src="./imagenes/galeria/2.jpg" alt="">
-                </div>
-                <div class="miSlider fade">
-                    <img src="./imagenes/galeria/3.jpg" alt="">
-                </div>
-                <div class="direcciones">
-                    <a class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
-                    <a class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
-                </div>
-                <div class="barras">
-                    <span class="barra active" onclick="posicionSlide(1)"></span>
-                    <span class="barra" onclick="posicionSlide(2)"></span>
-                    <span class="barra" onclick="posicionSlide(3)"></span>
-                </div>
-            </div>
-            <br>
-            <br>
-        
+            </header>
         </div>
+        <div id="promociones" class="container">
+            <h1>Nuevos Cursos</h1>
+            <div class="row mx5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100" style="width:18rem">
+                        <img src="imagenes/Curso-Satisfaccion-Del-Cliente.jpg" class="card-img-top">
+                        <div class="card body">
+                            <h5 style="color:brown">MEDICIÓN DE LA SATISFACCIÓN DEL CLIENTE</h5>
+                            <p class="card-text" style="color:darkgreen">
+                                Conocer procesos efectivos para el monitoreo y medición de la satisfacción del cliente
+                                en el marco estándares internacionales (ISO 10004).
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100" style="width:18rem">
+                        <img src="imagenes/Curso-Gestion-De-La-Mejora-Continua.jpg" class="card-img-top">
+                        <div class="card body">
+                            <h5 style="color:brown">GESTIÓN DE LA MEJORA CONTINUA</h5>
+                            <p class="card-text" style="color:darkgreen">
+                                Brindar a los participantes los conceptos y herramientas necesarias para la definición,
+                                toma y control de Acciones Correctivas y Preventivas.
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100" style="width:18rem">
+                        <img src="imagenes/Curso-Validacion-Metodos-De-Ensayo-Cualitativos.jpg" class="card-img-top">
+                        <div class="card body">
+                            <h5 style="color:brown">VALIDACIÓN DE MÉTODOS DE ENSAYO CUALITATIVOS</h5>
+                            <p class="card-text" style="color:darkgreen">
+                                Dar herramientas para definir, ejecutar y verificar validaciones de métodos de ensayo
+                                cualitativos.
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-fluid col-3 align-content-center">
+                    <br>
+                    <button onclick="location.href='cursos.html'" type="button" class="btn btn-primary btn-lg">Ir a la
+                        Lista Completa Cursos</button>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="slide-contenedor">
+            <div class="miSlider fade">
+                <img src="./imagenes/galeria/1.jpg" alt="">
+            </div>
+            <div class="miSlider fade">
+                <img src="./imagenes/galeria/2.jpg" alt="">
+            </div>
+            <div class="miSlider fade">
+                <img src="./imagenes/galeria/3.jpg" alt="">
+            </div>
+            <div class="direcciones">
+                <a class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                <a class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+            </div>
+            <div class="barras">
+                <span class="barra active" onclick="posicionSlide(1)"></span>
+                <span class="barra" onclick="posicionSlide(2)"></span>
+                <span class="barra" onclick="posicionSlide(3)"></span>
+            </div>
+        </div>
+        <br>
+        <br>
     </div>
-
-    <div id="footer">
     </div>
-    
+    <div id="footer"></div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/autocomplete.js"></script>
     <script src="js/script.js"></script>
-
 </body>
 
 </html>

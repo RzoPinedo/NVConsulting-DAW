@@ -8,9 +8,11 @@ function avanzaSlide(n){
 function posicionSlide(n){
     muestraSlides(indice=n);
 }
+
 setInterval(function tiempo(){
     muestraSlides(indice+=1)
 },4000);
+
 function muestraSlides(n){
     let i;
     let slides = document.getElementsByClassName('miSlider');

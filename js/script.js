@@ -1,16 +1,10 @@
-
 function mostrar_menu() {
-
     document.getElementById("move-content").classList.toggle('move-container-all');
     document.getElementById("show-menu").classList.toggle('show-lateral');
 }
 
-
-
 //Creando filtrado de busqueda
 function CrearBuscador() {
-
-
     const field = document.getElementById('inputSearch');
     const ac = new Autocomplete(field, {
         maximumItems: 5,
@@ -34,7 +28,6 @@ function CrearBuscador() {
             }
         }
     });
-
     ac.setData([
         {
             "label": "Cursos",
@@ -52,13 +45,13 @@ function CrearBuscador() {
             "value": "4"
         }
     ]);
-
 }
 
 //Insertar Menu
-
 $("#menu").load("menu.html", function (e) {
     CrearBuscador();
 });
+
+//Insertar Footer
 $("#footer").load("footer.html", function (e) {
 });

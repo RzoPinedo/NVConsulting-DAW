@@ -1,8 +1,3 @@
-function mostrar_menu() {
-    document.getElementById("move-content").classList.toggle('move-container-all');
-    document.getElementById("show-menu").classList.toggle('show-lateral');
-}
-
 //Creando filtrado de busqueda
 function CrearBuscador() {
     const field = document.getElementById('inputSearch');
@@ -21,7 +16,7 @@ function CrearBuscador() {
                     location.href = "Contacto.html";
                     break;
                 case "4":
-
+                    location.href = "index.html";
                     break;
                 default:
                     break;
@@ -46,12 +41,3 @@ function CrearBuscador() {
         }
     ]);
 }
-
-//Insertar Menu
-$("#menu").load("menu.html", function (e) {
-    CrearBuscador();
-});
-
-//Insertar Footer
-$("#footer").load("footer.html", function (e) {
-});

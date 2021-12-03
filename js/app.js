@@ -91,6 +91,35 @@ $(document).ready(function(){
 
 
 
+    $(".efecto-curso").mouseover(function (e) {
+        $(this).css({'padding-top': '10px'});
+    });
+    $(".efecto-curso").mouseout(function (e) {
+        $(this).css({'padding-top': '0px'});
+    });
+    
+    $("#parrafo").mouseover(function (e) {
+        $(this).css({'color': '#ffbc00'});
+    });
+    $("#parrafo").mouseout(function (e) {
+        $(this).css({'color': 'white'});
+    });
+    
+    $(".efecto-lista-curso").mouseover(function (e) {
+        $(this).css({'color': 'yellow'});
+    });
+    $(".efecto-lista-curso").mouseout(function (e) {
+        $(this).css({'color': 'white'});
+    });
+    
+    $("#imagen-nostros").mouseover(function (e) {
+        $(this).attr({'src': 'imagenes/nosotros.jpg'});
+    });
+    $("#imagen-nostros").mouseout(function (e) {
+        $(this).attr({'src': 'imagenes/PE.png'});
+    });
+    
+
 
 });
 

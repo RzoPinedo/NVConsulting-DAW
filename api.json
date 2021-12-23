@@ -1,0 +1,36 @@
+[{
+    "precio": 200,
+    "id": 1,
+    "title": "GESTIÓN DE LA CALIDAD POR INDICADORES EN UN LABORATORIO DE ENSAYO",
+    "imagen": "./imagenes/ISO1725.png"
+  },
+  {
+    "precio": 200,
+    "id": 2,
+    "title": "ASEGURAMIENTO DE CALIDAD DE RESULTADOS DE ENSAYO SEGÚN LA NORMA ISOIEC",
+    "imagen": "./imagenes/aseguramiento.jpg"
+  },
+  {
+    "precio": 180,
+    "id": 3,
+    "title": "GESTIÓN DE LA MEJORA CONTINUA",
+    "imagen": "./imagenes/ISO9001.png"
+  },
+  {
+    "precio": 190,
+    "id": 4,
+    "title": "CONTROL Y MONITOREO DE VARIABLES POR GRÁFICOS DE CONTROL UNIVARIADOS",
+    "imagen": "imagenes/control.jpg"
+  },
+  {
+    "precio": 170,
+    "id": 5,
+    "title": "DETERMINACIÓN DE LÍMITES DE DETECCIÓN Y CUANTIFICACIÓN DE MÉTODOS DE ENSAYO FÍSICO QUÍMICO",
+    "imagen": "imagenes/ISO22000.png"
+  },
+  {
+    "precio": 150,
+    "id": 6,
+    "title": "GESTIÓN DE RIESGO EN LABORATORIO DE ENSAYO",
+    "imagen": "imagenes/gestionriesgo.jpg"
+  }]
